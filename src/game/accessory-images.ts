@@ -20,8 +20,8 @@ export const HEAD_W = 104;
 /** Head ellipse height in accessory space (ry 60 -> 120). */
 export const HEAD_H = 120;
 
-/** Every accessory is head gear now, so the whole stack is worn in the arena. */
-const WORN_SLOTS = new Set(["hair", "hat", "face"]);
+/** Only a single clean hat silhouette is allowed in the arena. */
+const WORN_SLOTS = new Set(["hat"]);
 
 const cache = new Map<AccessoryId, HTMLImageElement>();
 

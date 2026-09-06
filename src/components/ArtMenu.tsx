@@ -61,6 +61,7 @@ type RailItem = {
 
 const LEFT_RAIL: RailItem[] = [
   { id: "shop", label: "Shop", icon: ShoppingCart, target: { kind: "modal", modal: "shop" }, badge: "!", tint: "crimson" },
+  { id: "daily", label: "Daily", icon: Package, target: { kind: "modal", modal: "gift" }, badge: "!", tint: "gold" },
   { id: "missions", label: "Missions", icon: ClipboardList, target: { kind: "modal", modal: "missions" }, badge: "!", tint: "leaf" },
   { id: "classes", label: "Classes", icon: User, target: { kind: "tab", tab: "classes" }, tint: "violet" },
 ];
@@ -107,7 +108,7 @@ function BarButton({ item, onOpen }: { item: RailItem; onOpen: (t: ArtTarget) =>
       type="button"
       aria-label={item.label}
       onClick={() => onOpen(item.target)}
-      className="relative grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-white/15 bg-[oklch(0.12_0.02_292/78%)] backdrop-blur-sm transition-colors active:bg-white/15"
+      className="relative grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-cyan/35 bg-pop-tray/90 shadow-[0_3px_0_var(--ink)] backdrop-blur-sm transition-colors active:bg-secondary"
     >
       <Icon className={`h-4 w-4 ${TINT_FG[item.tint]}`} strokeWidth={2.25} aria-hidden />
 
@@ -144,7 +145,7 @@ function IconTile({
       className="group relative flex w-[3.2rem] shrink-0 flex-col items-center gap-1 short:w-11 short:gap-0.5 sm:w-[3.8rem]"
     >
       <span
-         className={`relative grid ${box} place-items-center rounded-2xl border border-[oklch(1_0_0/14%)] bg-[oklch(0.14_0.02_292/62%)] backdrop-blur-md transition-all duration-200 group-hover:-translate-y-0.5 group-hover:bg-[oklch(0.18_0.03_292/72%)] group-active:translate-y-0`}
+         className={`relative grid ${box} place-items-center rounded-xl border-2 border-cyan/35 bg-pop-tray/90 shadow-[0_3px_0_var(--ink)] backdrop-blur-md transition-all duration-200 group-hover:-translate-y-0.5 group-hover:border-cyan group-hover:bg-secondary group-active:translate-y-0`}
       >
         <Icon className={`h-[18px] w-[18px] sm:h-5 sm:w-5 ${TINT_FG[item.tint]}`} strokeWidth={2} aria-hidden />
         {item.badge && (
@@ -154,7 +155,7 @@ function IconTile({
         )}
       </span>
       <span
-        className={`rounded bg-[oklch(0.04_0_0/68%)] px-1 py-0.5 text-[9px] font-semibold uppercase tracking-[0.08em] text-[oklch(0.96_0.01_292/95%)] drop-shadow-[0_1px_2px_oklch(0_0_0/80%)] sm:text-[10px] ${
+        className={`rounded bg-ink/85 px-1 py-0.5 text-[9px] font-semibold uppercase tracking-[0.08em] text-foreground drop-shadow-[0_1px_2px_oklch(0_0_0/80%)] sm:text-[10px] ${
           size === "rail" ? "short:hidden" : "short:text-[8px]"
         }`}
       >

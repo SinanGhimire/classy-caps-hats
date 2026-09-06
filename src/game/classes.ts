@@ -138,7 +138,7 @@ const ROWS: Row[] = [
     mats: 20,
     color: "#7bf2a8",
     shirt: "#8a5a30",
-    wear: ["redBandana"],
+    wear: ["baseballCap"],
     buffs: [
       { label: "Speed", value: "+8%", tone: "good" },
       { label: "Crit", value: "+5%", tone: "good" },
@@ -157,7 +157,7 @@ const ROWS: Row[] = [
     damageMult: 1.1,
     color: "#c77dff",
     shirt: "#4f9d4f",
-    wear: ["featherBand"],
+    wear: ["fedora"],
     buffs: [
       { label: "Pierce", value: "+2", tone: "good" },
       { label: "Speed", value: "+5%", tone: "good" },
@@ -176,7 +176,7 @@ const ROWS: Row[] = [
     mats: 10,
     color: "#5ec8ff",
     shirt: "#5a6a3a",
-    wear: ["armyHelmet"],
+    wear: ["baseballCap"],
     buffs: [
       { label: "HP", value: "+5%", tone: "good" },
       { label: "Damage", value: "+10%", tone: "good" },
@@ -196,7 +196,7 @@ const ROWS: Row[] = [
     speedMult: 1.15,
     color: "#8f9bff",
     shirt: "#1b1c22",
-    wear: ["redHeadwrap"],
+    wear: ["beanie"],
     buffs: [
       { label: "Crit", value: "+20%", tone: "good" },
       { label: "Speed", value: "+15%", tone: "good" },
@@ -216,7 +216,7 @@ const ROWS: Row[] = [
     damageMult: 1.12,
     color: "#ff9d4d",
     shirt: "#7b3fb5",
-    wear: ["redHeadwrap", "goggles"],
+    wear: ["cowboyHat"],
     buffs: [
       { label: "Lifesteal", value: "+6%", tone: "good" },
       { label: "Damage", value: "+12%", tone: "good" },
@@ -254,7 +254,7 @@ const ROWS: Row[] = [
     damageMult: 1.2,
     color: "#e8623c",
     shirt: "#4f7d3f",
-    wear: ["vikingHelm"],
+    wear: ["beanie"],
     buffs: [
       { label: "HP", value: "+25%", tone: "good" },
       { label: "Lifesteal", value: "+8%", tone: "good" },
@@ -273,7 +273,7 @@ const ROWS: Row[] = [
     speedMult: 0.9,
     color: "#9fd8e8",
     shirt: "#3f5fc0",
-    wear: ["knightHelm"],
+    wear: ["fedora"],
     buffs: [
       { label: "HP", value: "+35%", tone: "good" },
       { label: "Speed", value: "-10%", tone: "bad" },
@@ -292,7 +292,7 @@ const ROWS: Row[] = [
     damageMult: 1.14,
     color: "#e6b32e",
     shirt: "#c8402f",
-    wear: ["gladiatorHelm"],
+    wear: ["jesterHat"],
     buffs: [
       { label: "HP", value: "+12%", tone: "good" },
       { label: "Damage", value: "+14%", tone: "good" },
@@ -330,7 +330,7 @@ const ROWS: Row[] = [
     mats: 15,
     color: "#7fd07f",
     shirt: "#3a4a2e",
-    wear: ["hood"],
+    wear: ["fedora"],
     buffs: [
       { label: "Speed", value: "+12%", tone: "good" },
       { label: "Materials", value: "+15", tone: "good" },
@@ -384,7 +384,7 @@ const ROWS: Row[] = [
     damageMult: 1.08,
     color: "#7dbd63",
     shirt: "#4f7d3f",
-    wear: ["antlers"],
+    wear: ["cowboyHat"],
     buffs: [
       { label: "HP", value: "+20%", tone: "good" },
       { label: "Damage", value: "+8%", tone: "good" },
@@ -403,7 +403,7 @@ const ROWS: Row[] = [
     speedMult: 1.04,
     color: "#68c7e8",
     shirt: "#3f6fb5",
-    wear: ["featherBand", "greenBandana"],
+    wear: ["wizardHat"],
     buffs: [
       { label: "Crit", value: "+10%", tone: "good" },
       { label: "Lifesteal", value: "+5%", tone: "good" },
@@ -421,7 +421,7 @@ const ROWS: Row[] = [
     crit: 0.08,
     color: "#f0a63c",
     shirt: "#e08a2c",
-    wear: ["greenHeadwrap"],
+    wear: ["beanie"],
     buffs: [
       { label: "Speed", value: "+20%", tone: "good" },
       { label: "Crit", value: "+8%", tone: "good" },
@@ -440,7 +440,7 @@ const ROWS: Row[] = [
     speedMult: 0.96,
     color: "#f4d24a",
     shirt: "#3f5fc0",
-    wear: ["crown"],
+    wear: ["fedora"],
     buffs: [
       { label: "HP", value: "+28%", tone: "good" },
       { label: "Damage", value: "+10%", tone: "good" },
@@ -458,7 +458,7 @@ const ROWS: Row[] = [
     hpMult: 1.05,
     color: "#f5f1e4",
     shirt: "#dcd6c6",
-    wear: ["hood", "featherBand"],
+    wear: ["witchHat"],
     buffs: [
       { label: "Lifesteal", value: "+15%", tone: "good" },
       { label: "HP", value: "+5%", tone: "good" },
@@ -477,7 +477,7 @@ const ROWS: Row[] = [
     mats: 25,
     color: "#e8a726",
     shirt: "#5a6470",
-    wear: ["baseballCap", "engineerGoggles"],
+    wear: ["baseballCap"],
     buffs: [
       { label: "Turrets", value: "+2", tone: "good" },
       { label: "Materials", value: "+25", tone: "good" },
@@ -495,7 +495,7 @@ const ROWS: Row[] = [
     mats: 30,
     color: "#bfe8a8",
     shirt: "#5f9c3f",
-    wear: ["headMirror"],
+    wear: ["beanie"],
     buffs: [
       { label: "Lifesteal", value: "+10%", tone: "good" },
       { label: "Materials", value: "+30", tone: "good" },
@@ -513,7 +513,7 @@ const ROWS: Row[] = [
     hpMult: 1.06,
     color: "#9fbf5f",
     shirt: "#6f7c52",
-    wear: ["hood", "goggles"],
+    wear: ["witchHat"],
     buffs: [
       { label: "Damage", value: "+16%", tone: "good" },
       { label: "HP", value: "+6%", tone: "good" },
@@ -531,7 +531,7 @@ const ROWS: Row[] = [
     hpMult: 1.1,
     color: "#e6e2d6",
     shirt: "#f3f2ee",
-    wear: ["beanie", "engineerGoggles"],
+    wear: ["beanie"],
     buffs: [
       { label: "Lifesteal", value: "+14%", tone: "good" },
       { label: "HP", value: "+10%", tone: "good" },
@@ -551,7 +551,7 @@ const ROWS: Row[] = [
     hpMult: 0.88,
     color: "#c77dff",
     shirt: "#7b3fb5",
-    wear: ["greenBandana", "goggles"],
+    wear: ["jesterHat"],
     buffs: [
       { label: "Damage", value: "+22%", tone: "good" },
       { label: "Speed", value: "+14%", tone: "good" },
@@ -588,7 +588,7 @@ const ROWS: Row[] = [
     speedMult: 1.04,
     color: "#f0a63c",
     shirt: "#4bb45f",
-    wear: ["jesterHat", "goggles"],
+    wear: ["cowboyHat"],
     buffs: [
       { label: "Materials", value: "+60", tone: "good" },
       { label: "Speed", value: "+4%", tone: "good" },
@@ -607,7 +607,7 @@ const ROWS: Row[] = [
     hpMult: 0.9,
     color: "#f3f2ee",
     shirt: "#e6e2d6",
-    wear: ["greenHeadwrap", "goggles"],
+    wear: ["witchHat"],
     buffs: [
       { label: "Speed", value: "+16%", tone: "good" },
       { label: "Crit", value: "+10%", tone: "good" },
@@ -626,7 +626,7 @@ const ROWS: Row[] = [
     damageMult: 1.08,
     color: "#b98bff",
     shirt: "#191a20",
-    wear: ["hood", "redHeadwrap"],
+    wear: ["wizardHat"],
     buffs: [
       { label: "Lifesteal", value: "+12%", tone: "good" },
       { label: "Damage", value: "+8%", tone: "good" },
@@ -644,7 +644,7 @@ const ROWS: Row[] = [
     damageMult: 1.26,
     color: "#ff6b5c",
     shirt: "#8a2b3a",
-    wear: ["antlers", "redHeadwrap"],
+    wear: ["pirateHat"],
     buffs: [
       { label: "Damage", value: "+26%", tone: "good" },
       { label: "HP", value: "+12%", tone: "good" },
@@ -663,7 +663,7 @@ const ROWS: Row[] = [
     speedMult: 1.02,
     color: "#c77dff",
     shirt: "#191a20",
-    wear: ["hood", "antlers"],
+    wear: ["witchHat"],
     buffs: [
       { label: "Damage", value: "+45%", tone: "good" },
       { label: "Crit", value: "+16%", tone: "good" },
@@ -705,7 +705,7 @@ const ROWS: Row[] = [
     turretWeapon: "carbine",
     color: "#8fd47a",
     shirt: "#4a5544",
-    wear: ["armyHelmet", "engineerGoggles"],
+    wear: ["baseballCap"],
     buffs: [
       { label: "Turrets", value: "+2", tone: "good" },
       { label: "HP", value: "+20%", tone: "good" },
@@ -726,7 +726,7 @@ const ROWS: Row[] = [
     hpMult: 0.92,
     color: "#5ec8ff",
     shirt: "#2f4a6b",
-    wear: ["baseballCap", "goggles"],
+    wear: ["baseballCap"],
     buffs: [
       { label: "Crit", value: "+22%", tone: "good" },
       { label: "Damage", value: "+35%", tone: "good" },

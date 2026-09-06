@@ -1,6 +1,5 @@
 # Roadmap
 
-- [ ] Measure skull (hair excluded) per frame for idle/walk/death
-- [ ] Write anchors + death tilt into hero-anchors.ts and use them in drawWorn
-- [ ] Check all 23 accessories on all 4 characters, none covering eyes
-- [ ] Show preview screenshots
+- [ ] Refresh the main menu, Shop, Daily Rewards, and shared panels with a cleaner color system.
+- [ ] Restrict every class cosmetic to one cap, hat, or beanie and remove face/head clutter.
+- [ ] Verify the menu and class picker in the running game.
